@@ -1,0 +1,26 @@
+img{
+    width: 100px;
+    margin-left: 0px;
+    padding: 50px;
+}
+body {
+    animation: cambioColor 10s infinite;
+  }
+  
+  @keyframes cambioColor {
+    0% {
+      background-color: lightsalmon;
+    }
+    25% {
+      background-color: lightgoldenrodyellow;
+    }
+    50% {
+      background-color: lightseagreen;
+    }
+    75% {
+      background-color: lightcoral;
+    }
+    100% {
+      background-color: lightblue;
+    }
+  }
